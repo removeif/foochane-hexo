@@ -41,7 +41,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: false
+  enable: true
   showTitle: true
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -87,15 +87,15 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/foochane/foochane.github.io
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 123123123
-  github:
-  email: xxx@xx.xx
+  qq: 952151655
+  github: https://github.com/foochane
+  email: fuchengkm@qq.com
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -116,14 +116,14 @@ reward:
   enable: true
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  alipay: /medias/reward/alipay.png
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: false
-  minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
+  enable: true
+  minCharNumber: 30 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
@@ -132,7 +132,7 @@ copyright:
 # 是否激活mathjax数学公式，这是全局配置，但文章仍然不会都开启mathjax渲染，
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
-  enable: false
+  enable: true
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Post word count, reading duration, site total word count.
@@ -141,7 +141,7 @@ mathjax:
 # 文章字数统计、阅读时长、总字数统计
 # 激活前请确认你已经安装了 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 wordCount:
-  enable: false
+  enable: true
   postWordCount: true
   min2read: true
   totalCount: true
@@ -162,7 +162,7 @@ profile:
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     hexo-theme-matery:
       icon: fa-meetup
