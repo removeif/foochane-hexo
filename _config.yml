@@ -15,8 +15,11 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://foochane.github.io
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+permalink: :urlname.html # 文章永久链接 urlname值文章里必须填写，格式201905260105
+permalink_defaults: 
+  urlname: unnamed
 
 # Directory
 source_dir: source
@@ -93,10 +96,11 @@ search:
   path: search.xml
   field: post
 
-# 用 hexo-permalink-pinyin Hexo 插件使在生成文章时生成中文拼音的永久链接
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
+#用 hexo-permalink-pinyin Hexo 插件使在生成文章时生成中文拼音的永久链接
+# permalink_pinyin:
+#   enable: ture
+#   separator: '-' # default: '-'
+
 
 # 文章字数统计插件 hexo-wordcount
 wordCount:
