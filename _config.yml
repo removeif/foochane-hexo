@@ -17,7 +17,7 @@ url: https://foochane.github.io
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
-permalink: :urlname.html # 文章永久链接 urlname值文章里必须填写，格式201905260105
+permalink: /article/:urlname.html # 文章永久链接 urlname值文章里必须填写，格式201905260105
 permalink_defaults: 
   urlname: unnamed
 
