@@ -1,4 +1,4 @@
-<%
+<!-- <%
 let reprintPolicyEnabled = theme.reprint && theme.reprint.enable
 let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by'
 %>
@@ -160,4 +160,19 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by'
         $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
       }
     </script>
-<% } %>
+<% } %> -->
+
+
+
+<div class="left-align">
+    本文作者：<a href=https://foochane.cn ><%- page.author || config.author %></a>
+    <br/>
+    本文链接：<a href="<%- url_for(page.path) %>">https://foochane/article/<%- page.urlname %></a>
+    <br/>
+    版权声明：本文采用
+    <a rel="license" href="<%= __('cc_by_url') %>">
+        <%= __('cc_by_name') %>
+    </a>
+    ,转载请注明出处！
+</div>
+
