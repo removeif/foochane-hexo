@@ -88,9 +88,24 @@ theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo: https://github.com/foochane/foochane.github.io.git
+# deploy:
+#   type: git
+#   repo:
+#       github: git@github.com/foochane/foochane.github.io.git,master
+#       coding: git@git.dev.tencent.com/foochane/foochane-hexo.git,master
 deploy:
-  type: git
+- type: git
   repo: https://github.com/foochane/foochane.github.io.git
+  branch: master
+- type: git
+  repo: https://git.dev.tencent.com/foochane/foochane.git
+  branch: master
+- type: git 
+  repo: https://gitee.com/foochane/foochane.git
+  branch: master
 
 # 主题中还使用到了 hexo-generator-search 的 Hexo 插件来做内容搜索
 search:
