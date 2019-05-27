@@ -167,7 +167,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by'
 <div class="left-align">
     本文作者：<a href=https://foochane.cn ><%- page.author || config.author %></a>
     <br/>
-    本文链接：<a href="<%- url_for(page.path) %>">https://foochane.cn/article/<%- page.urlname %></a>
+    本文链接：<a href="<%- url_for(page.path) %>">https://foochane.cn/article/<%- page.urlname %>.html</a>
     <br/>
     版权声明：本文采用
     <a rel="license" href="<%= __('cc_by_url') %>">
