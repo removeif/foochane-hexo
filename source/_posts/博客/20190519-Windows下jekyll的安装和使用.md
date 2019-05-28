@@ -57,14 +57,14 @@ jekyll -v
 具体可以参考jekyll官方文档：https://jekyllrb.com/docs/installation/windows/
 
 
-## 4 使用jekyll创建简单的博客
-#### 4.1 创建博客
+## 5 使用jekyll创建简单的博客
+### 5.1 创建博客
 输入命令：
 ```
 jekyll new myblog
 ```
 
-#### 4.2 本地运行博客
+### 5.2 本地运行博客
 切换到`myblog`目录下，输入如下命令
 ```
 bundle exec jekyll serve
