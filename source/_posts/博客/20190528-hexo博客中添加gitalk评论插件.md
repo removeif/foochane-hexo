@@ -4,7 +4,7 @@ summary: 关键词： hexo 博客 gitalk 评论 插件
 author: foochane
 top: true
 cover: true
-categories: NLP
+categories: hexo
 date: 2019-05-28 20:39
 urlname: 2019052801
 tags:
@@ -18,7 +18,8 @@ tags:
 
 
 填写申请内容：
-![](https://upload-images.jianshu.io/upload_images/7007663-d0511289b65f2bf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7007663-a445131b4936f739.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 记住`Client ID`和 `Client Secret`
 ![](https://upload-images.jianshu.io/upload_images/7007663-94578610797f4cfd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -77,10 +78,12 @@ gitalk:
 ![](https://upload-images.jianshu.io/upload_images/7007663-9c70935f0d4b98a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 关联账号，授权：
-![](https://upload-images.jianshu.io/upload_images/7007663-63af67f700c7d9b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7007663-8bd5e8ca8c43a10a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 之后就可以使用评论了：
 
 ![](https://upload-images.jianshu.io/upload_images/7007663-6754278db2a92ec7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 到这里，gitalk插件就添加成功了。
+
