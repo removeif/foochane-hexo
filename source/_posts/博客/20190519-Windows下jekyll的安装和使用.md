@@ -4,7 +4,7 @@ summary: jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
 author: foochane
 categories: jekyll
 date: 2019-05-19 10:56
-urlname: 201905191056
+urlname: 2019051905
 tags:
   - jekyll
 ---
