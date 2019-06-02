@@ -1,0 +1,13 @@
+<!-- 手机端还没写 -->
+<%
+    let isEnable = false; 
+%>
+
+<% if (isEnable) { %>
+<%- partial('./tags.ejs') %>
+<% } else { %>
+<%- partial('_partial/navi-detail.ejs') %>
+<% } %>
+
+
+
