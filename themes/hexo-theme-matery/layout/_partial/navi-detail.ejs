@@ -1,4 +1,4 @@
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
+<div class="bg-homepage carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
 	<div class="carousel-item red white-text bg-cover about-cover">
 		<div class="container   ">
 			<!-- <div class="row"> -->
@@ -26,7 +26,7 @@
 
 
 
-			<!-- 大屏顯示 -->
+			<!-- 大屏显示 -->
 			<div class="row tags-posts link-box large-screen ">
 
 				<!--内容-->
@@ -144,11 +144,10 @@
 				</div>
 			</div>
 
-			<!-- 小屏顯示 -->
+			<!-- 小屏幕显示 -->
 			<div class="row tags-posts link-box-small small-screen ">
 
 				<!--内容-->
-
 				<div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
 					<div class="card">
 
@@ -186,6 +185,7 @@
 						</ul>
 					</div>
 				</div>
+
 
 				<div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
 					<div class="card">
@@ -277,7 +277,9 @@
 	}
 
 	.card {
-		background-color: rgba(124, 206, 245, 0);
+		background-color: rgba(25, 240, 229, 0); 
+		margin-left: 20px;
+
 	}
 
 	.baidu {
@@ -512,12 +514,12 @@
 	}
 
 
-	.jianjie {
+	/* .jianjie {
 		width: 1170px;
 		margin-left: 0px;
 		margin-bottom: 0px;
 
-	}
+	} */
 
 	.jj-list {
 		width: 350px;
@@ -535,10 +537,11 @@
 
 	.jj-list-con {
 		overflow: hidden;
+		margin: 0 auto
 	}
 
 	.jj-list-con li {
-		width: 110px;
+		width: 30%;
 		margin: 3px 3px;
 	}
 
@@ -562,21 +565,9 @@
 
 	/* 浏览器主页背景. */
 	.bg-homepage {
-		position: relative;
-		display: flex;
-		align-items: center;
-		/* height: 600px; */
-		padding: 0;
-		border: 0;
-		overflow: hidden;
-		background-position: center center;
-		background-size: cover;
-		transform: translate3d(0px, 0px, 0px);
 
-		color: #000;
-
-		margin-top: -65px;
-		margin-bottom: -90px
+		/* margin-top: -65px;  */
+		margin-bottom: -60px
 	}
 
 
@@ -585,7 +576,7 @@
 	}
 
 	.link-box-small {
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 
 
@@ -610,5 +601,10 @@
 		.small-screen {
 			display: none;
 		}
+	}
+
+	/* 隐藏footer */
+	.show-footer {
+		display: none;
 	}
 </style>
