@@ -157,3 +157,4 @@ neat_js:
   exclude:
     - '**/*.min.js'
     - '**/matery.js' 
+    - '**/clicklove.js'
