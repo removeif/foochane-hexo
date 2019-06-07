@@ -7,7 +7,7 @@ categories: 大数据
 tags:
   - PySpark
   - 大数据
-img: https://upload-images.jianshu.io/upload_images/7007663-0441411b1b2febef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp
+img: /medias/featureimages/9.jpg
 author: foochane
 toc: true
 mathjax: false
@@ -90,7 +90,8 @@ Apache Pig使用HDFS读取和存储数据，Hadoop的MapReduce执行算法。Apa
 
 Pig最好的部分是对代码进行优化和测试，以处理日常问题。所以用户可以直接安装Pig并开始使用它。Pig提供了Grunt shell来运行交互式的Pig命令。因此，任何了解Pig Latin的人都可以享受HDFS和MapReduce的好处，而不需要了解Java或Python等高级编程语言。
 
-![](https://upload-images.jianshu.io/upload_images/7007663-dd79078f40221809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/001.jpg)
+
 
 
 > 相关链接
@@ -113,7 +114,8 @@ Kafka Producer 将消息生成到Kafka主题，它可以将数据发布到多个
 ### 5.3 Consumer
 Consumer从Kafka代理获取消息。记住，它获取消息。Kafka Broker不会将消息推送给Consumer;相反，Consumer从Kafka Broker中提取数据。Consumer订阅Kafka Broker上的一个或多个主题，并读取消息。Broker还跟踪它所使用的所有消息。数据将在Broker中保存指定的时间。如果使用者失败，它可以在重新启动后获取数据。
 
-![](https://upload-images.jianshu.io/upload_images/7007663-847b9a5369f3c62a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/002.jpg)
+
 
 > 相关链接：
 > - https://kafka.apache.org/documentation/
