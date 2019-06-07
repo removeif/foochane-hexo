@@ -18,7 +18,7 @@ url: https://foochane.cn/
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
-permalink: /article/:urlname.html # 文章永久链接 urlname值文章里必须填写，格式201905260105
+permalink: article/:urlname.html # 文章永久链接 urlname值文章里必须填写，格式201905260105
 permalink_defaults: 
   urlname: unnamed
 
@@ -61,7 +61,7 @@ prism_plugin:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
   
 # Category & Tag
