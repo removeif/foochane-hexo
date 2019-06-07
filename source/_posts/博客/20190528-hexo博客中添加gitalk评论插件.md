@@ -18,11 +18,11 @@ tags:
 
 
 填写申请内容：
-![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/003.jpg))
+![](/images/2019/003.jpg))
 
 
 记住`Client ID`和 `Client Secret`
-![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/004.jpg))
+![](/images/2019/004.jpg))
 
 ## 2 添加代码
 
@@ -75,15 +75,15 @@ gitalk:
 部署代码后，访问博客页面
 
 第一次访问需要登陆，github账号。
-![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/005.jpg))
+![](/images/2019/005.jpg))
 
 关联账号，授权：
-![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/006.jpg))
+![](/images/2019/006.jpg))
 
 
 之后就可以使用评论了：
 
-![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/007.jpg))
+![](/images/2019/007.jpg))
 
 到这里，gitalk插件就添加成功了。
 
