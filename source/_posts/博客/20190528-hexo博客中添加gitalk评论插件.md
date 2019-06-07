@@ -18,11 +18,11 @@ tags:
 
 
 填写申请内容：
-![](https://upload-images.jianshu.io/upload_images/7007663-a445131b4936f739.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/003.jpg))
 
 
 记住`Client ID`和 `Client Secret`
-![](https://upload-images.jianshu.io/upload_images/7007663-94578610797f4cfd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/004.jpg))
 
 ## 2 添加代码
 
@@ -75,15 +75,15 @@ gitalk:
 部署代码后，访问博客页面
 
 第一次访问需要登陆，github账号。
-![](https://upload-images.jianshu.io/upload_images/7007663-9c70935f0d4b98a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/005.jpg))
 
 关联账号，授权：
-![](https://upload-images.jianshu.io/upload_images/7007663-8bd5e8ca8c43a10a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/006.jpg))
 
 
 之后就可以使用评论了：
 
-![](https://upload-images.jianshu.io/upload_images/7007663-6754278db2a92ec7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/foochane/foochane.github.io/raw/master/medias/articleimages/2019/007.jpg))
 
 到这里，gitalk插件就添加成功了。
 
