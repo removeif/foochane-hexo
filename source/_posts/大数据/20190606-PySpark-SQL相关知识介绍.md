@@ -1,6 +1,6 @@
 ---
 title: PySpark SQL 相关知识介绍
-summary: 关键词：大数据、Hadoop、Hive、Pig、Kafka、Spark、PySpark SQL、集群管理器（Cluster Managers）、PostgreSQL、MongoDB、Cassandra、介绍
+summary: 关键词：大数据 Hadoop Hive Pig Kafka Spark PySpark SQL 集群管理器 PostgreSQL MongoDB Cassandra
 date: 2019-06-06 13:56
 urlname: 2019060601
 categories: 大数据
@@ -217,3 +217,5 @@ Cassandra是开放源码的分布式数据库，附带Apache许可证。这是�
 >- [https://www.datastax.com/resources/tutorials](https://www.datastax.com/resources/tutorials)
 >- [http://cassandra.apache.org/doc/latest/](http://cassandra.apache.org/doc/latest/)
 
+<!-- >本文作者：[foochane](https://foochane.cn/) 
+本文链接：[https://foochane.cn/article/2019060601.html](https://foochane.cn/article/2019060601.html) -->
