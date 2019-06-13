@@ -158,3 +158,19 @@ neat_js:
     - '**/*.min.js'
     - '**/matery.js' 
     - '**/clicklove.js'
+
+#pwa
+# Offline
+## https://github.com/JLHwung/hexo-offline
+offline:
+  maximumFileSizeToCacheInBytes: 10485760
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,json,xml}
+  stripPrefix: public
+  verbose: true
+  # CDNs 
+  # runtimeCaching:
+  #   - urlPattern: /*
+  #     handler: cacheFirst
+  #     options:
+  #       origin: cdnjs.cloudflare.com
