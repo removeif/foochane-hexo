@@ -12,7 +12,7 @@ author: foochane
 toc: true
 mathjax: false
 top: true
-cover: true
+cover: false
 ---
 
 
