@@ -4,7 +4,7 @@ summary: 关键词： hexo 博客 gitalk 评论 插件
 author: foochane
 top: false
 cover: false
-categories: hexo
+categories: 博客
 date: 2019-05-28 20:39
 urlname: 2019052801
 tags:
