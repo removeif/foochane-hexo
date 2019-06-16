@@ -26,13 +26,15 @@ cover: false
 
 
 ## 1 ssh-keygen命令
+
 ssh-keygen命令说明：
--t ：指定加密类型（rea,dsa)
--C : 指定注释,用于识别这个密钥
+- -t ：指定加密类型（rea,dsa)
+- -C : 指定注释,用于识别这个密钥
 
 
 
-具体可以查看帮助
+其他参数具体可以查看帮助
+```bash
 $ ssh-keygen help
 Too many arguments.
 usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
@@ -59,11 +61,11 @@ usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
        ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
                   file ...
        ssh-keygen -Q -f krl_file file ...
-	   
-
+```	   
+实际情况中也用不到那么参数，指定加密类型和注释即可。
 例如：
-```
-ssh-keygen -t rsa -C "myname@163.com"
+```bash
+$ ssh-keygen -t rsa -C "myname@163.com"
 Generating public/private rsa key pair.
 Enter file in which to save the key (C:\Users\fucheng/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
@@ -86,9 +88,10 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 一般情况下不需要输入密码，直接回车即可。
+
 执行完`ssh-keygen`之后会在，用户目录下的`.ssh`文件下，生产一个`id_rsa`文件和`id_rsa.pub`文件。
-`id_rsa`文件是私钥，要保存好，放在本地，私钥可以生产公钥，反之不行。
-`id_rsa.pub`文件是公钥，可以用于送到其他服务器，或者git上。
+- `id_rsa`文件是私钥，要保存好，放在本地，私钥可以生产公钥，反之不行。
+- `id_rsa.pub`文件是公钥，可以用于送到其他服务器，或者git上。
 	   
 ## 2 ssh设置无密码登录服务器
 
@@ -110,8 +113,8 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 以github为例，找到个人主页，点击[settings],找到[SSH and GPG keys] ，新建`SSH keys`,将本地`id_rsa.pub`的内容复制到`key`里面，tittle可以随便填写，这样就配置好了。
 
-找到要访问的仓库主页，点击`Clone or Download` 将`use Http`换成`use SSH`,然后就会显示对应的仓库地址如：git@github.com:uername/xxxxx.git
+找到要访问的仓库主页，点击`Clone or Download` 将`use Http`换成`use SSH`,然后就会显示对应的仓库地址如：`git@github.com:uername/xxxxx.git`
 
-使用该地址就可以再本地进行无密码访问仓库了。
+使用该地址就可以在本地进行无密码访问仓库了。
 
 
