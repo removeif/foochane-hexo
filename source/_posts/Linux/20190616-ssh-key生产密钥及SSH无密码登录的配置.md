@@ -1,6 +1,6 @@
 ---
-title: ssh-key生产密钥及SSH无密码登录的配置
-summary: 关键词： SSH连接 ssh-key生产密码 无密码登录服务器 无密码访问git仓库
+title: ssh-key生成密钥及SSH无密码登录的配置
+summary: 关键词： SSH连接 ssh-key生成秘钥 无密码登录服务器 无密码访问git仓库
 date: 2019-06-16 9:33:23
 urlname: 2019061601
 categories: linux
@@ -28,7 +28,7 @@ cover: false
 ## 1 ssh-keygen命令
 
 `ssh-keygen`命令说明：
-- -t ：指定加密类型（rea,dsa)
+- -t ：指定加密类型（如：rea,dsa)
 - -C : 指定注释,用于识别这个密钥
 
 
@@ -62,7 +62,7 @@ usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
                   file ...
        ssh-keygen -Q -f krl_file file ...
 ```	   
-实际情况中也用不到那么参数，指定加密类型和注释即可。
+实际情况中也用不到那么多参数，指定加密类型和注释即可。
 例如：
 ```bash
 $ ssh-keygen -t rsa -C "myname@163.com"
@@ -89,29 +89,29 @@ The key's randomart image is:
 ```
 一般情况下不需要输入密码，直接回车即可。
 
-执行完`ssh-keygen`之后会在，用户目录下的`.ssh`文件下，生产一个`id_rsa`文件和`id_rsa.pub`文件。
+执行完`ssh-keygen`之后会在，用户目录下的`.ssh`文件下，生成一个`id_rsa`文件和`id_rsa.pub`文件。
 - `id_rsa`文件是私钥，要保存好，放在本地，私钥可以生产公钥，反之不行。
-- `id_rsa.pub`文件是公钥，可以用于送到其他服务器，或者git上。
+- `id_rsa.pub`文件是公钥，可以用于发送到其他服务器，或者git上。
 	   
 ## 2 ssh设置无密码登录服务器
 
-将之前在本地生产的公钥`id_rsa.pub`,发送到需要无密码登录的服务器，然后将`id_rsa.pub`的内容追加到服务器的`~/.ssh/authorized_keys `文件中即可。
+将之前在本地生成的公钥`id_rsa.pub`,发送到需要无密码登录的服务器，然后将`id_rsa.pub`的内容追加到服务器的`~/.ssh/authorized_keys `文件中即可。
 
 如果没有.ssh目录，创建一个就好，或者执行`ssh localhost`登录本地，ssh会自动创建。
 
-可以使用如下命令：
-```
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys 
+可以使用如下命令进行操作：
+```bash
+$ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys 
 ```
 
-另外如果想要无密码登录本地locahost，那么在本地执行上面的命令即可，执行之后再 `ssh localhost` 就不需要输入密码了。
+另外如果想要无密码登录本地localhost，那么在本地执行上面的命令即可，执行之后再 `ssh localhost` 就不需要输入密码了。
 
 
 ## 3 设置ssh无密码访问git仓库
 
 注意这里访问的主要是私有仓库。
 
-以github为例，找到个人主页，点击`[settings]`,找到`[SSH and GPG keys]` ，新建`SSH keys`,将本地`id_rsa.pub`的内容复制到`key`里面，`tittle`可以随便填写，这样就配置好了。
+以`github`为例，找到个人主页，点击`[settings]`,找到`[SSH and GPG keys]` ，新建`SSH keys`,将本地`id_rsa.pub`的内容复制到`key`里面，`tittle`可以随便填写，这样就配置好了。
 
 找到要访问的仓库主页，点击`Clone or Download` 将`use Http`换成`use SSH`,然后就会显示对应的仓库地址如：`git@github.com:uername/xxxxx.git`
 
