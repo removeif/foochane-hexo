@@ -8,11 +8,11 @@ tags:
   - linux
   - git
   - ssh
-img: 
+img: /medias/featureimages/24.jpg 
 author: foochane
-toc: true
+toc: false 
 mathjax: false
-top: true
+top: false 
 cover: false
 ---
 
@@ -27,7 +27,7 @@ cover: false
 
 ## 1 ssh-keygen命令
 
-ssh-keygen命令说明：
+`ssh-keygen`命令说明：
 - -t ：指定加密类型（rea,dsa)
 - -C : 指定注释,用于识别这个密钥
 
@@ -111,7 +111,7 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 注意这里访问的主要是私有仓库。
 
-以github为例，找到个人主页，点击[settings],找到[SSH and GPG keys] ，新建`SSH keys`,将本地`id_rsa.pub`的内容复制到`key`里面，tittle可以随便填写，这样就配置好了。
+以github为例，找到个人主页，点击`[settings]`,找到`[SSH and GPG keys]` ，新建`SSH keys`,将本地`id_rsa.pub`的内容复制到`key`里面，`tittle`可以随便填写，这样就配置好了。
 
 找到要访问的仓库主页，点击`Clone or Download` 将`use Http`换成`use SSH`,然后就会显示对应的仓库地址如：`git@github.com:uername/xxxxx.git`
 
