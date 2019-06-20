@@ -1,6 +1,6 @@
 ---
 title: Windows下jekyll的安装和使用
-summary: jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，不需要数据库支持。
+summary: jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具。
 author: foochane
 categories: 博客
 date: 2019-05-19 10:56

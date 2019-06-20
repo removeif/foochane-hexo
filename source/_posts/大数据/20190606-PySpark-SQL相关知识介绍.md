@@ -15,7 +15,7 @@ top: true
 cover: false
 ---
 
-
+>大数据 Hadoop Hive Pig Kafka Spark PySpark SQL 集群管理器 PostgreSQL MongoDB Cassandra
 
 ## 1 大数据简介
 
