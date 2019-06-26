@@ -54,7 +54,6 @@ cover: false
 - `EPHEMERAL`  且 `SEQUENTIAL`  ：短暂且带序号
 
 
-
 ## 3 安装zookeeper
 解压安装包 `zookeeper-3.4.6.tar.gz`
 
