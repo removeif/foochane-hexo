@@ -10,7 +10,7 @@ tags:
   - ssh
 img: /medias/featureimages/24.jpg 
 author: foochane
-toc: false 
+toc: true 
 mathjax: false
 top: false 
 cover: false
