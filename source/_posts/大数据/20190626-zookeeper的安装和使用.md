@@ -15,6 +15,7 @@ top: false
 cover: false
 ---
 
+
 <!-- 
 文章作者：[foochane](https://foochane.cn/) 
 </br>
@@ -30,7 +31,7 @@ cover: false
 
 `key`：是以路径的形式表示的，各key之间有父子关系，比如 `/ `是顶层`key`
 
-用户建的`key`只能在/ 下作为子节点，比如建一个key： `/aa`  这个key可以带value数据
+用户建的`key`只能在/ 下作为子节点，比如建一个key： `/aa`  这个`key`可以带`value`数据
 
 也可以建一个`key`：   `/bb`
 
@@ -44,7 +45,7 @@ cover: false
 `zookeeper`中的`znode`有多种类型：
 
 - 1、`PERSISTENT`  持久的：创建者就算跟集群断开联系，该类节点也会持久存在与`zk`集群中
-- 2、`EPHEMERAL`  短暂的：创建者一旦跟集群断开联系，zk就会将这个节点删除
+- 2、`EPHEMERAL`  短暂的：创建者一旦跟集群断开联系，`zk`就会将这个节点删除
 - 3、`SEQUENTIAL`  带序号的：这类节点，`zk`会自动拼接上一个序号，而且序号是递增的
 
 组合类型：
@@ -121,11 +122,11 @@ $ bin/zkServer.sh status
 
 ```
 
-## 5 编写启动脚本zkmanage.sh：
+## 5 编写启动脚本zkmanage.sh
 
 `zookeeper`没有提供批量脚本，不能像`hadoop`一样在一台机器上同时启动所有节点，可以自己编写脚本批量启动。
 
-```python
+```c
 #!/bin/bash
 for host in Master Slave01 Slave02
 do
