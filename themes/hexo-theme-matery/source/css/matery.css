@@ -171,12 +171,11 @@ mark {
     background-image: linear-gradient(to right, #00c3f5 0%,#3dbefa 100%);
 } */
 
-.bg-color {
-    background-image: linear-gradient(to right, #ff6e19 20%,#ffa033f8 100%);
-}
+
 .bg-color {
     background-image: linear-gradient(to right, rgb(168, 50, 241) 20%,rgb(163, 124, 241) 100%);
 }
+
 
 .text-color {
     color: #0f9d58 !important;

@@ -88,7 +88,7 @@
 					<ul class="jj-list-con">
 						<li><a href="https://open.163.com/" class="link-3" target="_blank">网易公开课</a></li>
 						<li><a href="https://study.163.com/" class="link-3" target="_blank">网易云课堂</a></li>
-						<li><a href="https://www.icourse163.org/" class="link-3" target="_blank">中国大学mooc</a></li>
+						<li><a href="https://www.icourse163.org/" class="link-3" target="_blank">中国大学慕课</a></li>
 						<li><a href="https://www.imooc.com/" class="link-3" target="_blank">慕课网</a></li>
 						<li><a href="http://www.icourses.cn/home/" class="link-3" target="_blank">爱课程</a></li>
 						<li><a href="https://www.coursera.org" class="link-3" target="_blank">Coursera</a></li>
@@ -512,8 +512,8 @@
 		font-weight: bold
 	}
 
-	/*小屏幕下的样式*/
-	@media only screen and (max-width: 768px) {
+	/*1栏 小于584*/
+	@media only screen and (max-width: 584px) {
 		.navi-height {
 			height: 1300px;
 		}
@@ -528,9 +528,25 @@
 
 	}
 
+	/* 2栏 大于584  小于993px */
+	@media only screen and (min-width: 584px) and (max-width: 993px){
+		.navi-height {
+			height: 800px;
+		}
 
-	/*大屏幕下(桌面类)的样式*/
-	@media only screen and (min-width: 768px) {
+		.link-box {
+			margin-top: 5%;
+		}
+
+		.large-screen {
+			display: none;
+		}
+
+	}
+
+
+	/*3栏 大于993px*/
+	@media only screen and (min-width: 993px) {
 
 		.navi-height {
 			position: absolute;
