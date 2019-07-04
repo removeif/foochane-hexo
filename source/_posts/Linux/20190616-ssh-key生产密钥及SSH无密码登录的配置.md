@@ -109,6 +109,11 @@ $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 另外如果想要无密码登录本地localhost，那么在本地执行上面的命令即可，执行之后再 `ssh localhost` 就不需要输入密码了。
 
 
+**使用 ssh-copy-id命令**
+
+使用 `ssh-copy-id 主机名@IP`可以直接完成以上两步的操作。
+
+
 ## 3 设置ssh无密码访问git仓库
 
 注意这里访问的主要是私有仓库。
