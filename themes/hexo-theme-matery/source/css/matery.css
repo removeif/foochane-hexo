@@ -172,10 +172,21 @@ mark {
 } */
 
 
-.bg-color {
-    background-image: linear-gradient(to right, rgb(168, 50, 241) 20%,rgb(163, 124, 241) 100%);
-}
+    /* background: rgba(3, 153, 158,0.75);
 
+    background: rgba(9, 105, 160, 0.75);
+
+    background: rgba(30,144,255, 0.75);
+   */
+
+
+/* .bg-color {
+    background-image: linear-gradient(to right, rgb(168, 50, 241) 20%,rgb(163, 124, 241) 100%);
+} */
+
+.bg-color {
+    background-image: linear-gradient( to right, rgb(3, 153, 158) 0%,rgb(3, 153, 158) 100%);
+}
 
 .text-color {
     color: #0f9d58 !important;
@@ -192,7 +203,7 @@ mark {
     bottom: 0;
     z-index: 300;
     /* background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%); */
-    background: linear-gradient(to right, #8A2BE2 0%, rgb(112, 5, 212) 100%);
+    background: linear-gradient(to right, rgba(3, 153, 158,0.1) 0%, rgba(3, 153, 158,0.1) 100%);
     opacity: 0.8;
 }
 
