@@ -82,7 +82,7 @@ print('Found %s word vectors.' % len(embeddings_index))
     Found 87117 word vectors.
 
 
-### 2.2.2 获取某个词的向量
+#### 2.2.2 获取某个词的向量
 
 
 ```python
@@ -118,7 +118,7 @@ model['汽车']
 
 
 
-### 2.2.3 查看某个词的与其他词的相似度
+#### 2.2.3 查看某个词的与其他词的相似度
 
 
 ```python
@@ -143,7 +143,7 @@ model.most_similar('人民日报')
 
 
 
-### 2.2.4 保存模型
+#### 2.2.4 保存模型
 
 
 ```python
@@ -152,7 +152,7 @@ model.save('/tmp/w2v_model')
 
 ```
 
-### 2.2.5 加载模型
+#### 2.2.5 加载模型
 
 
 ```python
