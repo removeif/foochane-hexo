@@ -11,7 +11,7 @@ img:
 author: foochane
 toc: true
 mathjax: false
-top: true
+top: false
 cover: false
 ---
 
